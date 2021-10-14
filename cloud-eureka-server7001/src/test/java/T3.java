@@ -11,5 +11,6 @@ public class T3 {
         System.out.println("hot_fix1");
         System.out.println("hot_fix2");
         System.out.println("全新起步");
+        System.out.println("push one");
     }
 }
