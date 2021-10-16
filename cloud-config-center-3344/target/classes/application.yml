@@ -8,13 +8,13 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/sw9697/springcloud-config.git #GitHub上面的git仓库名字
+          uri: https://gitee.com/shiwang9697/springcloud-config.git #GitHub上面的git仓库名字
           ####搜索目录
           search-paths:
             - springcloud-config
           skip-ssl-validation: true
-          username: xxxxx
-          password: xxxxx
+          username: 335880822@qq.com
+          password: sqq123456
       ####读取分支
       label: master
 
@@ -22,5 +22,5 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:7001/eureka
+      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka
 
