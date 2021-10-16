@@ -15,5 +15,6 @@ public class T3 {
         System.out.println("pull one");
         System.out.println("push two");
         System.out.println("push three");
+        System.out.println("gitee push");
     }
 }
